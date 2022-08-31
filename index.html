@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest</title>
+    <script src="https://kit.fontawesome.com/3cc8f4748e.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/pinterest-1.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="contenedor">
+
+        <nav class="navegador">
+
+            <div class="nav1">
+
+                <a href="#"><img class="pinterest-img" src="./img/pinterest-1.svg" alt="pinterest"></a>
+                <a class="inicio" href="#">Inicio</a>
+                <a class="hoy" href="#">Hoy</a>
+                <a class="seguidos" href="#">Seguidos</a>
+
+                    <!-- <div class="select-content"> -->
+                        <select class="crear" name="Crear">
+                            <option class="crear-2" value="crear">Crear</option>
+                            <option class="crear-2" value="crear_idea">Crear un Idea Pin</option>
+                            <option class="crear-2" value="crear_pin">Crear Pin</option>
+                        </select>
+                    <!-- </div> -->
+
+            </div>
+
+            <div class="nav2">
+                <form class="formulario" action="reservar" method="post">
+                    <!-- <div class="campo"> -->
+                        <input class="search" type="search" name="buscar" placeholder="Buscar">
+                    <!-- </div> -->
+                </form>
+            </div>
+
+            <div class="nav3">
+                <a id="bell" href="#"><i class="bell-class fa-solid fa-bell"></i></a>
+                <a id="message" href="#"><i class="message-class fa-solid fa-comment-dots"></i></a>
+                <a id="user" href="#"><i class="user-class fa-solid fa-user-large"></i></a>
+            </div>
+
+        </nav>
+        
+    </div>
+
+</body>
+</html>
