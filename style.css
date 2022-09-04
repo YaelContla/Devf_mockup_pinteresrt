@@ -97,22 +97,22 @@
 
 }
 
-@media (max-width: 721px ){
+@media (max-width: 800px ){
 
     .inicio{
-        padding: 5px;
+        padding: 8px;
     }
     
     .hoy{
-        padding: 5px;
+        padding: 8px;
     }
     
     .seguidos{
-        padding: 5px;
+        padding: 8px;
     }
     
     .crear{
-        padding: 5px;
+        padding: 8px;
     }
     
     
@@ -218,6 +218,15 @@
 
 }
 
+@media (max-width: 841px ){
+    .contenedor-items{
+        width: 84%;
+        columns: 3;
+        gap: 15px;
+    }
+    
+    }
+
 @media (max-width: 720px ){
     .contenedor-items{
         width: 80%;
@@ -281,6 +290,38 @@
 }
 
 
+
+@media (max-width: 2110px ){
+
+    
+.tablet{
+    padding: 14px;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: black;
+    border-radius: 80px;
+    margin-left: 10px;
+}
+
+.tablet:hover{
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 80px;
+}
+
+
+
+.save{
+    padding: 14px;
+    background-color: rgba(228, 3, 3, 0.897);
+    color: white;
+    border-radius: 80px;
+}
+
+.save:hover{
+    background-color: rgba(173, 5, 5, 0.918);
+    border-radius: 80px;
+}
+
+
 .feet{
     padding: 14px;
     background-color: rgba(255, 255, 255, 0.74);
@@ -305,42 +346,27 @@
     border-radius: 80px;
 }
 
-@media (max-width: 2110px ){
-
-    
-.tablet{
-    padding: 14px;
-    background-color: rgba(255, 255, 255, 0.74);
-    color: black;
-    border-radius: 80px;
-    margin-left: 10px;
-}
-
-
-.save{
-    padding: 14px;
-    background-color: rgba(228, 3, 3, 0.897);
-    color: white;
+.link:hover{
+    background-color: rgba(255, 255, 255, 0.918);
     border-radius: 80px;
 }
 
-.save:hover{
-    background-color: rgba(173, 5, 5, 0.918);
-    border-radius: 80px;
 }
 
 
-}
-
-
-@media (max-width: 1400px ){
+@media (max-width: 1053px ){
 
     a{
         font-size: 13px;
     }
-
 }
 
+@media (max-width: 901px ){
+
+    a{
+        font-size: 12px;
+    }
+}
 
 
 
